@@ -1,15 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <AppHeader />
+    <HeroSection />
+    <StatsSection />
+    <ProgramsSection />
+    <AppFooter />
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<style></style>
+
+<script setup>
+import AppHeader from "@/components/AppHeader.vue";
+import HeroSection from "@/components/HeroSection.vue";
+import StatsSection from "@/components/StatsSection.vue";
+import ProgramsSection from "@/components/ProgramsSection.vue";
+import AppFooter from "@/components/AppFooter.vue";
+</script>
