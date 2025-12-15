@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # connectodc
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -36,3 +37,6 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+# connectodc
+>>>>>>> bb02e8be0d32236aa655cf31f13a5844e2ca491b
