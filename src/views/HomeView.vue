@@ -5,9 +5,11 @@ import foot from "@/components/foot.vue";
 </script>
 
 <template>
-  <main>
-    <NavBar />
-    <hero />
+  <div class="flex flex-col min-h-screen">
+    <main class="flex-grow">
+      <NavBar />
+      <hero />
+    </main>
     <foot />
-  </main>
+  </div>
 </template>
